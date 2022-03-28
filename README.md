@@ -18,7 +18,7 @@ Currently, **MLbot** depends on the following tools:
 - <a href="https://docs.aws.amazon.com/eks/latest/userguide/install-kubectl.html">kubectl (for EKS)</a>
 
 ## Installation
-`pip install ml-bot`
+`pip install mlbot-cloud`
 
 ## Quick-start
 ### 1. Get the MNIST training example
