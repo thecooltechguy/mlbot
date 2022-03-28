@@ -1,4 +1,4 @@
-# MLbot
+# ![MLbot](./logo.svg)
 **MLbot** offers a fast & easy way to train ML models in your cloud, directly from your laptop.
 
 It does this by abstracting away all the complexities of setting up a compute cluster & launching distributed training jobs, behind a few simple commands.
