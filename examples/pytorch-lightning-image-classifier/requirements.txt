@@ -1,0 +1,6 @@
+pytorch-lightning==1.5.10
+torchmetrics #==0.7.2
+jsonargparse[signatures]==4.3.1
+torchvision
+#torchvision==0.12.0
+#torchtext==0.12.0
