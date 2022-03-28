@@ -48,7 +48,7 @@ If you'd like to *only* create the cluster configuration file and then separatel
 You can then separately run `eksctl create cluster -f .mlbot/cluster.yaml` to manually create the EKS cluster. This can be useful if you would like to edit the file before creating the EKS cluster.
 </details>
 
-### 2. Setup the compute cluster (<5 mins, one-time setup)
+### 3. Setup the compute cluster (<5 mins, one-time setup)
 
 ```mlbot setup-cluster```
 
@@ -58,7 +58,7 @@ Once the above command is done, let's scale up a single non-GPU node in our clus
 
 ```eksctl scale nodegroup --cluster=testcluster --nodes=1 standard-ng-1```
 
-### 3. Run an example training job
+### 4. Run an example training job
 Now that our cluster is ready, we can now run distributed training jobs on it!
 
 First, we need to specify the project name and docker image name that MLbot should use for deploying this project's compute jobs. The project name will be used as the prefix for all of this project's jobs, while the docker image name will be used for the images that MLbot builds & pushes for packaging your code.
@@ -81,7 +81,7 @@ To view the logs of all training nodes, a better way might be to use a tool like
 
 To stop this job, run: `mlbot stop <job id>`. This will delete the compute job from the k8s cluster.
 
-### 4. Delete the compute cluster
+### 5. Delete the compute cluster
 To completely delete the compute cluster we provisioned for this example, simply run:
 
 ```mlbot delete-cluster```
