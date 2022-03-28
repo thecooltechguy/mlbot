@@ -104,7 +104,7 @@ There will definitely be a much better way of doing this soon, as this tool gets
 ## Need help?
 To learn more about the arguments & options that the various sub-commands support, you can always run the sub-commands with the `--help` flag.
 
-If you find a bug or have any other questions, please create a GitHub issue and I'd be happy to help!
+If you have any other questions, please create a GitHub discussion post and I'd be happy to help!
 
 ## Limitations
 ### Using this tool with an existing EKS cluster
@@ -113,7 +113,7 @@ I'm currently working on updating the tool so that it can work with existing EKS
 ### Supported frameworks & cloud environments
 Currently, this tool only supports running distributed PyTorch compute jobs on AWS EKS (Elastic Kubernetes Service). And it should work pretty well with PyTorch Lightning without needing any major code changes (since PyTorch Lightning already supports TorchElastic).
 
-However, support for other frameworks and cloud environments will be added soon, and if you'd like to see a particular integration added, let me know by creating an issue!
+However, support for other frameworks and cloud environments will be added soon, and if you'd like to see a particular integration added, let me know by creating an GitHub discussion post!
 
 ## TODO
 
