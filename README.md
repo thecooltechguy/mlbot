@@ -97,7 +97,7 @@ If a spot instance gets reclaimed, the training job will automatically pause and
 To run your training code with a dynamic number of nodes, you can use the `--min-nodes` and `--max-nodes` options instead of a fixed `--num-nodes`, when calling `mlbot run`.
 
 ## Using the same cluster for multiple projects
-To use the same cluster as project A for project B, you can copy the `cluster.yaml` and `config.json` files from project A's `.mlbot` directory into project B's `.mlbot` directory, and re-run `mlbot init --project ... --docker_image_name ...` inside project B's directory.
+To use the same cluster as project A for project B, you can copy the `cluster.yaml` and `config.json` files from project A's `.mlbot` directory into project B's `.mlbot` directory, and re-run `mlbot init --project ... --docker-image ...` inside project B's directory.
 
 There will definitely be a much better way of doing this soon, as this tool gets updated & refactored.
 
